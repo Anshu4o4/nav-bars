@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color:#018080;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image{
+        height: 55px;
+        width: 55px;
+        /* background-image: url(iimg.png); */
+        background-size: cover;
+        margin-left: 10px;
+        border: 1px solid black;
+        border-radius: 20%;
+        
+}
+
+ul{
+    display: flex;
+   
+}
+
+ul li{
+    list-style: none;
+    margin: 0 36px;
+    color: #95ced6;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 18px;
+    
+}
